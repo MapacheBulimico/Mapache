@@ -1,0 +1,2 @@
+# Mapache
+Discord bot
