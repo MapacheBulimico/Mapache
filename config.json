@@ -1,5 +1,5 @@
 {
-"token":"NTU3NjQ4OTM3MTg0Mzk1Mjcw.D3L0nA.-36KhdD_N4wvKojq0cdRYosGcLs",
+"token":"process.env.token",
 "prefix":"--",
 "IdOwner":"557648937184395270"           
 }
