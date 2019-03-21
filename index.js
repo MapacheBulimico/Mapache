@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+const config = require("./config.json");
 
 client.on("ready", () => {
 	console.log('El bot esta listo para la musica');
