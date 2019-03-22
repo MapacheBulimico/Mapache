@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "description": "ffmpeg binaries",
   "main": "index.js",
-  "author": "Hackzzila <zach@hackzzila.com>",
+  "author": ">",
   "scripts": {
     "test": "eslint *.js",
     "install": "node install"
