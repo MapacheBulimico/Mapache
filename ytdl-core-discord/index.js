@@ -1,4 +1,4 @@
-const ytdl = require('ytdl-core-master');
+const ytdl = require('ytdl-core');
 const prism = require('prism-media');
 
 function filter(format) {
