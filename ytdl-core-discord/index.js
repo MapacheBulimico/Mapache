@@ -1,4 +1,9 @@
-const ytdl = require('./ytdl-core/index.js');
+const fs = require('fs');
+const ytdl = require('ytdl-core');
+ 
+ytdl('http://www.youtube.com/watch?v=A02s8omM_hI')
+  .pipe(fs.createWriteStream('video.flv'));
+
 const prism = require('prism-media');
 
 function filter(format) {
