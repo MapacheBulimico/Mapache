@@ -4,6 +4,16 @@ const config = require("./config.json");
 
 var prefix = config.prefix;
 
+client.on("ready", () => {
+	console.log('El bot esta listo para la musica');
+	client.user.setPresence( {
+       status: "online",
+       game: {
+           name: "--help",
+           type: "PLAYING"
+       }
+   } );
+	});
 client.on("message", (message) => {
 	if (message.content.startsWith(prefix + "hola")) {
 		message.channel.send('Tu nariz contra mis bolas :D');
