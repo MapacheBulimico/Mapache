@@ -1,11 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
-const ytdl = require('ytdl-core-discord');
-async function play(connection, url) {
-  connection.playOpusStream(await ytdl(url));
-}
-
 var opusscript = require("opusscript");
 
 // 48kHz sampling rate, 20ms frame duration, stereo audio (2 channels)
