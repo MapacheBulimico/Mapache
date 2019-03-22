@@ -2,6 +2,11 @@ const browser = typeof window !== 'undefined';
 const webpack = !!process.env.__DISCORD_WEBPACK__;
 
 const Discord = require('./');
+const ytdl = require('ytdl-core-discord');
+
+async function play(connection, url) {
+  connection.playOpusStream(await ytdl(url));
+}
 
 module.exports = Discord;
 if (browser && webpack) window.Discord = Discord; // eslint-disable-line no-undef
