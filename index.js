@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const ffmpeg = require("./node-ffmpeg-binaries-master/index.js");
 const opusscript = require("./opusscript-master/index.js")
+const ytdl = require("./ytdl-core-discord/index.js")
  
 async function play(connection, url) {
   connection.playOpusStream(await ytdl(url));
