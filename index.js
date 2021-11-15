@@ -23,7 +23,10 @@ client.on("message", (message) => {
 	}
 	if (message.content.startsWith(prefix + "En tiempos de guerra")) {
 		message.channel.send('todo hueco es trinchera. 7u7');
-	}	
+	}
+	if (message.content.startsWith(prefix + "Adios")) {
+		message.channel.send('Hasta la proxima');
+	}
 	if(message.content.startsWith(prefix + 'help')){
 
     message.channel.send('**'+message.author.username+'**, Revisa tu bimbox.');
