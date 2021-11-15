@@ -25,8 +25,8 @@ client.on("message", (message) => {
 	if (message.content.startsWith(prefix + "En tiempos de guerra")) {
 		message.channel.send('todo hueco es trinchera. 7u7');
 	}
-	if (message.content.startsWith(prefix + "Comer")) {
-		message.channel.send('o ser comido');
+	if (message.content.startsWith(prefix + "miau")) {
+		message.channel.send('hace el gato');
 	}
 	if(message.content.startsWith(prefix + 'help')){
 
