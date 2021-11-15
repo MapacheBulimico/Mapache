@@ -1,4 +1,5 @@
-const Discord = require('discord.js');
+if (message.content.startsWith(prefix + "En tiempos de guerra")) {
+		message.channel.send('todo hueco es trinchera. 7u7')const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
 
@@ -103,4 +104,5 @@ client.on("message", (message) => {
   	}
 });
 
-client.login(process.env.token); 
+client.login(process.env.token); ;
+	}
